@@ -1,0 +1,14 @@
+<!doctype html><html lang="tr"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Picnic Vakti</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/static/icons/icon-192.png" sizes="192x192">
+<meta name="theme-color" content="#FF6600">
+<link rel="stylesheet" href="/static/app.css">
+<script>
+if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('/service-worker.js').catch(console.error));}
+</script>
+</head><body><div class="container">
+<h1>📅 Picnic Vakti</h1>
+<p>Bu bir PWA + Flask örneği. Oda sayfası: <a href="/room/demo">/room/demo</a></p>
+</div></body></html>

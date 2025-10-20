@@ -1,0 +1,1 @@
+:root{--brand:#FF6600;--bg:#fff;--text:#222}html,body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,Segoe UI,Roboto,Arial}.container{max-width:720px;margin:24px auto;padding:16px}h1{color:var(--brand)}a{color:var(--brand);text-decoration:none}a:hover{text-decoration:underline}
